@@ -8,7 +8,7 @@ function Person(name, age) {
 }
 
 var john = new Person("John", 26);
-var sarah = new Person("Sarah", 29);
+var sarah = new Person("Sarah", 37);
 
-console.log(john.name);
-console.log(sarah.name);
+console.log(john.age);
+console.log(sarah.age);

@@ -1,6 +1,6 @@
 console.clear();
 
-// 1. FUNCTION
+// 2. FUNCTION EXAMPLE
 
 function greet(name) {
   console.log("Hello " + name);

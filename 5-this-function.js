@@ -5,12 +5,11 @@ console.clear();
 var person = {
   name: "John",
   age: 26,
-  doSomething: function() {
-    function greet(person) {
-      console.log("Hello " + this.name);
-    }
-    greet();
+  greet: function() {
+    console.log("Hello " + this.name);
   }
 };
 
-person.doSomething();
+var callGreet = person.greet;
+
+callGreet();
